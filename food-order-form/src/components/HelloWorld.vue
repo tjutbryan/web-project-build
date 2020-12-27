@@ -9,17 +9,14 @@
           <v-text-field
             v-model="name"
             label="Name"
-            required
           ></v-text-field>
           <v-text-field
             v-model="order"
             label="Order"
-            required
           ></v-text-field>
           <v-checkbox
             v-model="checkbox"
             label="Table service?"
-            required
           ></v-checkbox>
 
           <v-btn
@@ -38,19 +35,16 @@
             readonly
             v-model="name"
             label="Name"
-            required
           ></v-text-field>
           <v-text-field
             readonly
             v-model="order"
             label="Order"
-            required
           ></v-text-field>
           <v-checkbox
             readonly
             v-model="checkbox"
             label="Table service?"
-            required
           ></v-checkbox>
           <v-btn
             @click="reload"

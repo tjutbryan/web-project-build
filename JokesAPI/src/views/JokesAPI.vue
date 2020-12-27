@@ -2,7 +2,7 @@
   <v-container>
     <v-form>
       <v-text-field
-        disabled
+        readonly
         v-model="apiUrl"
         :counter="200"
         label="API URL"
@@ -16,6 +16,7 @@
         Get
       </v-btn>
       <v-text-field
+        readonly
         v-model="res[res.length-2]"
         :counter="100"
         label="Setup"
@@ -23,6 +24,7 @@
       >
       </v-text-field>
       <v-text-field
+        readonly
         v-model="res[res.length-1]"
         :counter="100"
         label="Delivery"
