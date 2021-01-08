@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">JokesAPI</router-link>
-    </div>e
+    </div>q
     <router-view/>
   </div>
 </template>
